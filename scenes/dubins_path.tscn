@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://blec46a3r84k"]
+
+[ext_resource type="Script" path="res://scenes/dubins_path.gd" id="1_ws7pe"]
+
+[node name="DubinsPath" type="Node2D"]
+script = ExtResource("1_ws7pe")
+
+[node name="Line2D" type="Line2D" parent="."]
